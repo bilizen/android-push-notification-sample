@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "421748905979",
+    "firebase_url": "https://pushnotificationsdemo-5d46c.firebaseio.com",
+    "project_id": "pushnotificationsdemo-5d46c",
+    "storage_bucket": "pushnotificationsdemo-5d46c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421748905979:android:42118e8510b6bb90",
+        "android_client_info": {
+          "package_name": "com.billflores.android_push_notification_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421748905979-5v7dca0hvoap1rcnbk70nlmnn1jjqd8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxmtpfzoOFHhpTfI7n5pJcyBA1Nq5P7CU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
