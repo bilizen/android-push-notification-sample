@@ -6,16 +6,16 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 
 /**
- * Created by rodrigo on 22/09/17.
+ * Created by bill on 22/09/17.
  */
 
-public class MyFireBaseInstanceIdService extends FirebaseInstanceIdService {
+public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     private static final String REG_TOKEN="REG_TOKEN";
 
     @Override
     public void onTokenRefresh() {
-        super.onTokenRefresh();
         String recent_token=FirebaseInstanceId.getInstance().getToken();
-        Log.i("i",recent_token);
+        Log.i(REG_TOKEN,recent_token);
+        super.onTokenRefresh();
     }
 }
